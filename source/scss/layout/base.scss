@@ -1,0 +1,54 @@
+// Basic Styles
+* {
+  outline: none;
+}
+
+body {
+  background: $gray-light;
+  font: 20px/32px $rsl-r;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  color: $white;
+  background: $black;
+}
+::-moz-selection {
+  color: $white;
+  background: $black;
+}
+::-webkit-selection {
+  color: $white;
+  background: $black;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
+
+em, i {font-family: $rsl-r; font-style: italic;}
+strong, b {font-family: $rsl-r; font-weight: bold;}
+strong em, em strong, b i, i b {font-family: $rsl-r; font-weight: bold; font-style: italic;}
+small {font-size: 80%;}
+
+// Links
+a {
+  color: $black;
+  outline: 0;
+  @include transition;
+
+  &[href^="http://savefrom.net/"] {display: none !important;}
+}
+
+
+// Container
+.container {
+	margin: 0 auto;
+	position: relative;
+
+  @include respond-to(mobile) {width: 96%;}
+	@include respond-to(laptop) {width: $mobile;}
+	@include respond-to(desktop) {width: $laptop;}
+}

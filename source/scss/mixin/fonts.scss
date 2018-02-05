@@ -1,0 +1,73 @@
+@mixin font-face($fontFamily, $path, $fileName, $svgLabel, $fontWeight: normal, $fontStyle: normal) {
+	@font-face {
+		font-family: $fontFamily;
+
+		src: url('#{$path + $fileName}.eot');
+		src: url('#{$path + $fileName}.eot?#iefix') format('embedded-opentype'),
+		url('#{$path + $fileName}.woff') format('woff'),
+		url('#{$path + $fileName}.ttf') format('truetype'),
+		url('#{$path + $fileName}.svg##{$svgLabel}') format('svg');
+
+		font-weight: $fontWeight;
+		font-style: $fontStyle;
+	}
+}
+
+// Roboto
+$rsl-r:   'RobotoSlab Regular';
+$rsl-l:   'RobotoSlab Light';
+
+@include font-face($rsl-r,   '/static/fonts/roboto-slab/', 'RobotoSlab-Regular', 'RobotoSlab-Regular');
+@include font-face($rsl-l,   '/static/fonts/roboto-slab/', 'RobotoSlab-Light', 'RobotoSlab-Light');
+
+
+// OpenSans
+$lato-r:   'Lato Regular';
+$lato-b:   'Lato Bold';
+$lato-bi:  'Lato BoldItalic';
+$lato-i:   'Lato Italic';
+$lato-sb:  'Lato Semibold';
+$lato-sbi: 'Lato SemiboldItalic';
+$lato-l:   'Lato Light';
+$lato-li:  'Lato LightItalic';
+$lato-t:   'Lato Thin';
+$lato-ti:  'Lato ThinItalic';
+
+@include font-face($lato-r,   '/static/fonts/lato/', 'Lato-Regular', 'Lato-Regular');
+@include font-face($lato-b,   '/static/fonts/lato/', 'Lato-Bold', 'Lato-Bold');
+@include font-face($lato-bi,  '/static/fonts/lato/', 'Lato-BoldItalic', 'Lato-BoldItalic');
+@include font-face($lato-i,   '/static/fonts/lato/', 'Lato-Italic', 'Lato-Italic');
+@include font-face($lato-sb,  '/static/fonts/lato/', 'Lato-Semibold', 'Lato-Semibold');
+@include font-face($lato-sbi, '/static/fonts/lato/', 'Lato-SemiboldItalic', 'Lato-SemiboldItalic');
+@include font-face($lato-l,   '/static/fonts/lato/', 'Lato-Light', 'Lato-Light');
+@include font-face($lato-li,  '/static/fonts/lato/', 'Lato-LightItalic', 'Lato-LightItalic');
+@include font-face($lato-t,   '/static/fonts/lato/', 'Lato-Thin', 'Lato-Thin');
+@include font-face($lato-ti,  '/static/fonts/lato/', 'Lato-ThinItalic', 'Lato-ThinItalic');
+
+// Icon
+$icon: 'icon';
+
+$icon-arrow: 			'\3c';
+$icon-arrow-dbl:  '\3e';
+$icon-sale: 			'\e900';
+$icon-fire: 			'\e91e';
+$icon-photo: 			'\e901';
+$icon-star: 			'\53';
+$icon-send: 			'\71';
+$icon-search: 		'\73';
+$icon-rubl: 			'\72';
+$icon-rubl-light: '\e902';
+$icon-rubl-thin:  '\e903';
+$icon-chat: 			'\e909';
+$icon-comments: 	'\e90a';
+$icon-comment: 		'\43';
+$icon-date: 			'\e90e';
+$icon-time: 			'\e90f';
+$icon-location: 	'\e910';
+$icon-upload: 		'\e912';
+$icon-att: 				'\e913';
+$icon-like: 			'\e914';
+$icon-notify: 		'\e921';
+$icon-setting: 		'\e929';
+
+@include font-face($icon, '/static/fonts/icon/', 'icon', 'icon');
