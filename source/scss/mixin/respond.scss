@@ -17,6 +17,10 @@ $desktop: 1600px;
     @media only screen and (min-width: $laptop) { @content; }
   }
 
+  @else if $media == mac {
+    @media only screen and (min-width: $mobile) { @content; }
+  }
+
 }
 
 // .block {

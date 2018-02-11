@@ -1,0 +1,455 @@
+header {
+  height: 50px;
+  background: $white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+
+  @include respond-to(mobile) {
+    min-height: 50px;
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    @include respond-to(mobile) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    a {
+      text-decoration: none;
+
+      &.logo {
+        width: 37px;
+        height: 50px;
+        color: $blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $tr;
+
+        &:before {
+          content: $icon-logo;
+          font: 36px/0 $icon;
+        }
+
+        @include respond-to(mac) {
+          &:hover {
+            color: $aqua;
+          }
+        }
+      }
+
+      &.color {
+        height: 50px;
+        color: $white;
+        font-family: $lato-sb;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 0 40px;
+        background: $blue;
+        @include transform(skewX(-10deg));
+
+        span {
+          display: block;
+          @include transform(skewX(10deg));
+
+          @include respond-to(mac) {
+            margin-top: -3px;
+          }
+
+          &.icon {
+            color: $white;
+            display: none;
+
+            &:before {
+              content: $icon-color;
+              font: 36px $icon;
+            }
+          }
+
+          &.text {
+            @include respond-to(laptop) {
+              font-size: 14px;
+            }
+
+            @include respond-to(desktop) {
+              font-size: 16px;
+            }
+          }
+        }
+
+        @include respond-to(mobile) {
+          top: 0; left: 50%;
+          margin-left: -24px;
+          padding: 0 20px;
+          position: absolute;
+          background: $gray-light;
+
+          span {
+
+            &.icon {
+              color: #ccc;
+              display: block;
+            }
+
+            &.text {
+              display: none;
+            }
+          }
+        }
+
+        @include respond-to(mac) {
+          &:hover {
+            background: $aqua;
+          }
+        }
+      }
+
+      &.burger {
+        width: 25px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        top: 20px; right: 0;
+
+        &:before {
+          content: '';
+          width: 100%;
+          height: 2px;
+          display: block;
+          position: absolute;
+          top: 0; left: 0;
+          background: $blue;
+          @include transform(rotate(0));
+          @include transition;
+        }
+
+        &:after {
+          content: '';
+          width: 100%;
+          height: 2px;
+          display: block;
+          position: absolute;
+          bottom: 0; left: 0;
+          background: $blue;
+          @include transform(rotate(0));
+          @include transition;
+        }
+
+        &.active {
+
+          &:before {
+            top: 4px;
+            @include transform(rotate(45deg));
+          }
+
+          &:after {
+            bottom: 4px;
+            @include transform(rotate(-45deg));
+          }
+        }
+
+        @include respond-to(mac) {
+          display: none;
+        }
+      }
+    }
+
+    nav {
+      @include respond-to(mobile) {
+        width: 100%;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        display: none;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 6px 6px 6px;
+          border-color: transparent transparent #ccc transparent;
+          position: absolute;
+          top: -6px; right: 6px;
+        }
+
+        &:after {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 6px 6px 6px;
+          border-color: transparent transparent #fff transparent;
+          position: absolute;
+          top: -5px; right: 6px;
+        }
+      }
+
+      @include respond-to(desktop) {
+        margin-right: 50px;
+      }
+
+      ul {
+        display: flex;
+
+        @include respond-to(mobile) {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+
+        li {
+          @include respond-to(mobile) {
+            padding: 5px 0;
+            width: 100%;
+          }
+
+          @include respond-to(laptop) {
+            margin-right: 35px;
+          }
+
+          @include respond-to(desktop) {
+            margin-right: 45px;
+          }
+
+          a, span {
+            height: 50px;
+            color: $black;
+            font-family: $lato-sb;
+            position: relative;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:after {
+              display: none;
+            }
+
+            @include respond-to(laptop) {
+              font-size: 14px;
+            }
+
+            @include respond-to(desktop) {
+              font-size: 16px;
+            }
+
+            @include respond-to(mac) {
+              &:after {
+                content: '';
+                width: 100%;
+                height: 20px;
+                display: block;
+                background: $tr;
+                position: absolute;
+                z-index: 3;
+              }
+
+              &:hover {
+                color: $blue;
+
+                & + ul {
+                  display: flex;
+                }
+              }
+            }
+          }
+
+          ul {
+            padding-bottom: 10px;
+            display: none;
+
+            @include respond-to(mobile) {
+              background: $gray-light;
+              position: relative;
+              width: 100%;
+
+              li {
+                position: relative;
+                padding: 0 20px !important;
+
+                &:first-child {
+
+                  &:before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 5px 6px 5px;
+                    border-color: transparent transparent $gray-light transparent;
+                    position: absolute;
+                    top: -5px; left: 21px;
+                  }
+                }
+              }
+
+              &:before {
+                content: '';
+                width: 8%;
+                height: 100%;
+                display: block;
+                position: absolute;
+                top: 0; left: -8%;
+                background: $gray-light;
+              }
+
+              &:after {
+                content: '';
+                width: 8%;
+                height: 100%;
+                display: block;
+                position: absolute;
+                top: 0; right: -8%;
+                background: $gray-light;
+              }
+
+              &.active {
+                display: block;
+              }
+            }
+
+            @include respond-to(mac) {
+              position: absolute;
+              top: 51px;
+              display: none;
+              flex-direction: column;
+              justify-content: flex-end;
+              background: $white;
+              box-shadow: 0 1px 3px 0 rgba(0,0,0,.05);
+
+              li {
+                margin: 0;
+                border-bottom: 1px solid #eee;
+
+                a {
+                  color: $black !important;
+                  height: auto;
+                  display: block;
+                  padding: 15px 45px 15px 15px;
+
+                  &:after {
+                    display: none;
+                  }
+
+                  &:hover {
+                    color: $blue !important;
+                  }
+                }
+
+                &.active {
+
+                  a {
+                    color: $blue !important;
+                  }
+                }
+              }
+
+              &:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 5px 6px 5px;
+                border-color: transparent transparent #fff transparent;
+                position: absolute;
+                top: -5px; left: 15px;
+                z-index: 2;
+              }
+
+              &:after {
+                content: '';
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 5px 6px 5px;
+                border-color: transparent transparent #ccc transparent;
+                position: absolute;
+                top: -6px; left: 15px;
+                z-index: 1;
+              }
+
+              &:hover {
+                display: flex;
+              }
+            }
+
+            &.active {
+              display: flex;
+            }
+          }
+
+          &.active {
+
+            a, span {
+              color: $blue;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &.active {
+        display: block;
+      }
+    }
+
+    div {
+      font-family: $lato-sb;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include respond-to(mobile) {
+        display: none;
+        padding-bottom: 20px;
+      }
+
+      @include respond-to(laptop) {
+        font-size: 14px;
+      }
+
+      @include respond-to(desktop) {
+        font-size: 16px;
+      }
+
+      p {
+        color: $blue;
+      }
+
+      span {
+        color: $gray;
+        padding: 0 5px;
+      }
+
+      a {
+        color: $gray-dark;
+
+        @include respond-to(mac) {
+
+          &:hover {
+            color: #333;
+          }
+        }
+      }
+
+      &.active {
+        display: flex;
+      }
+    }
+  }
+}

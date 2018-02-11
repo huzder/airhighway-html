@@ -11,16 +11,48 @@
     <meta content='3' name='revisit-after'>
     <link href='../static/images/favicon.png' rel='shortcut icon'>
     <link href='../static/css/style.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <script src='../static/js/script.min.js' type='text/javascript'></script>
     <script src='../static/js/main.min.js' type='text/javascript'></script>
   </head>
   <body>
     <div class='page-main'>
 
 <header>
-  header
+  <div class="container">
+    <a href="index.html" class="logo"></a>
+    <nav>
+      <ul>
+        <li>
+          <span>Продукция</span>
+          <ul>
+            <li><a href="">RW</a></li>
+            <li><a href="">FF</a></li>
+            <li><a href="">Свуп</a></li>
+            <li><a href="">Операторский</a></li>
+            <li><a href="">Трубный</a></li>
+            <li><a href="">Тандем</a></li>
+          </ul>
+        </li>
+        <li><a href="">Сервис</a></li>
+        <li><a href="">Галерея</a></li>
+        <li><a href="">Партнеры</a></li>
+        <li><a href="">О нас</a></li>
+      </ul>
+    </nav>
+    <a href="" class="color">
+      <span class="icon"></span>
+      <span class="text">раскраска комбинезонов</span>
+    </a>
+    <div>
+      <p>Рус</p>
+      <span>//</span>
+      <a href="">Eng</a>
+    </div>
+    <a href="javascript:void(0);" class="burger"></a>
+  </div>
 </header>
 
-Контент страницы
+Контент
       <footer>
         footer
       </footer>
@@ -28,3 +60,10 @@
   </body>
 </html>
 
+
+<!-- Demo -->
+<script>
+  $(document).ready(function() {
+    $('header nav ul li:nth-of-type(0)').addClass('active');
+  });
+</script>
