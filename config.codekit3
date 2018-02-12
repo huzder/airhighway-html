@@ -35,9 +35,9 @@
 	"\/bower_components\/jquery\/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/AUTHORS.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/bower.json": {
 		"ft": 524288,
@@ -80,9 +80,9 @@
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/dist\/jquery.min.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.js": {
 		"ft": 64,
@@ -107,9 +107,9 @@
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/dist\/jquery.slim.min.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js": {
 		"ft": 64,
@@ -134,23 +134,23 @@
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/jquery\/LICENSE.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/jquery\/README.md": {
 		"cB": 0,
@@ -1238,6 +1238,238 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/bower_components\/magnific-popup\/.bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/.bower.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/magnific-popup\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/.gitignore",
+		"oF": 1
+		},
+	"\/bower_components\/magnific-popup\/.jshintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/.jshintrc",
+		"oF": 1
+		},
+	"\/bower_components\/magnific-popup\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/.travis.yml",
+		"oF": 1
+		},
+	"\/bower_components\/magnific-popup\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/bower.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/magnific-popup\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/composer.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/dist\/magnific-popup.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/dist\/magnific-popup.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/bower_components\/magnific-popup\/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/Gruntfile.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/LICENSE",
+		"oF": 1
+		},
+	"\/bower_components\/magnific-popup\/magnific-popup.jquery.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/magnific-popup.jquery.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/magnific-popup\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/package.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/magnific-popup\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/README.md",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/css\/_settings.scss",
+		"oF": 1,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/css\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/css\/main.scss",
+		"oF": 1,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/ajax.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/ajax.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/core.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/core.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/gallery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/gallery.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/iframe.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/iframe.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/image.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/image.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/inline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/inline.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/retina.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/retina.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/magnific-popup\/src\/js\/zoom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/magnific-popup\/src\/js\/zoom.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/bower_components\/slick-carousel\/.bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1265,9 +1497,9 @@
 	"\/bower_components\/slick-carousel\/CONTRIBUTING.markdown": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/CONTRIBUTING.markdown",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/ISSUE_TEMPLATE.md": {
 		"cB": 0,
@@ -1290,23 +1522,23 @@
 	"\/bower_components\/slick-carousel\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/LICENSE",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/Makefile": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/Makefile",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/README.markdown": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/README.markdown",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/slick.jquery.json": {
 		"ft": 524288,
@@ -1327,16 +1559,16 @@
 	"\/bower_components\/slick-carousel\/slick\/config.rb": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/slick\/config.rb",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.svg": {
 		"ft": 2097152,
@@ -1351,16 +1583,16 @@
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/slick-carousel\/slick\/slick-theme.css": {
 		"aP": 1,
@@ -1639,9 +1871,9 @@
 	"\/bower_components\/tooltipster\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/site\/bower_components\/tooltipster\/LICENSE",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/tooltipster\/package.json": {
 		"ft": 524288,
@@ -1729,6 +1961,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/source\/scss\/layout\/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/static\/css\/footer.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/source\/scss\/layout\/form.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1764,6 +2009,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/site\/static\/css\/header.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/scss\/layout\/popup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/static\/css\/popup.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1855,7 +2113,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/css\/style.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1871,6 +2129,20 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/source\/static\/data\/popup\/privacy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/static\/data\/popup\/privacy.html",
+		"oF": 2
+		},
+	"\/source\/static\/data\/popup\/terms.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/static\/data\/popup\/terms.html",
+		"oF": 2
 		},
 	"\/source\/static\/fonts\/icon\/icon.eot": {
 		"cB": 0,

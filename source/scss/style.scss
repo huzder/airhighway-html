@@ -9,10 +9,12 @@
 @import 'mixin/gradient';
 @import 'mixin/respond';
 
-// Page
+// Layout
 @import 'layout/reset';
 @import 'layout/base';
 @import 'layout/header';
+@import 'layout/footer';
+@import 'layout/popup';
 @import 'layout/button';
 @import 'layout/form';
 @import 'layout/hack';
@@ -20,6 +22,7 @@
 // Plugin
 @import '../../bower_components/slick-carousel/slick/slick.css';
 @import '../../bower_components/tooltipster/dist/css/tooltipster.bundle.min.css';
+@import '../../bower_components/magnific-popup/dist/magnific-popup.css';
 
 // Pages
 @import 'page/main';

@@ -1,0 +1,350 @@
+.popup {
+
+  &_ajax {
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: $white;
+
+    @include respond-to(mobile) {
+      width: 260px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font: 40px/50px $lato-sb;
+      color: $blue;
+      margin-bottom: 20px;
+
+      @include respond-to(mobile) {
+        font: 26px/30px $lato-sb;
+      }
+    }
+
+    p {
+      font: 16px/26px $rsl-l;
+      margin-bottom: 20px;
+
+      &.sub {
+        font: 16px/26px $rsl-r;
+      }
+
+      &.signature {
+        color: $gray;
+        font-style: italic;
+        text-align: right;
+        margin-bottom: 0;
+      }
+    }
+
+    .list-numder {
+      counter-reset: ol-counter;
+      list-style: none;
+      margin-left: 0;
+
+      li {
+        color: $blue;
+        font: 26px $lato-sb;
+        padding-left: 20px;
+        list-style: none;
+        position: relative;
+
+        @include respond-to(mobile) {
+          font: 22px/32px $lato-sb;
+        }
+
+        a {
+          color: $blue;
+          text-decoration: none;
+
+          &:hover {
+            color: $aqua;
+          }
+        }
+
+        ol {
+          counter-reset: ol-counter;
+          padding: 15px 36px 15px 16px;
+          margin: 0;
+
+          li {
+            color: $black;
+            font: 16px/26px $rsl-l;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 0px;
+
+            ul {
+              padding: 10px 0 0 16px !important;
+              margin-bottom: 0;
+
+              li {
+                margin-bottom: 0;
+              }
+            }
+
+            ol {
+              padding-bottom: 0;
+
+              li {
+                padding-left: 10px;
+              }
+            }
+
+            &:before {
+              content: counter(ol-counter) '.';
+              counter-increment: ol-counter;
+              position: absolute;
+              top: 0px; left: -35px;
+            }
+          }
+        }
+
+        &:before {
+          content: counter(ol-counter) '.';
+          counter-increment: ol-counter;
+          position: absolute;
+          top: 0px; left: 0px;
+        }
+
+        &:nth-of-type(1) {
+
+          ol {
+
+            li {
+
+              ol {
+
+                li {
+
+                  &:before {
+                    content: '1.1.' counter(ol-counter) '.';
+                    counter-increment: ol-counter;
+                  }
+                }
+              }
+
+              &:before {
+                content: '1.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(2) {
+
+          ol {
+
+            li {
+
+              &:before {
+                content: '2.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(3) {
+
+          ol {
+
+            li {
+
+              &:nth-of-type(2) {
+
+                ol {
+
+                  li {
+
+                    &:before {
+                      content: '3.2.' counter(ol-counter) '.';
+                      counter-increment: ol-counter;
+                    }
+                  }
+                }
+              }
+
+              &:nth-of-type(3) {
+
+                ol {
+
+                  li {
+
+                    &:before {
+                      content: '3.3.' counter(ol-counter) '.';
+                      counter-increment: ol-counter;
+                    }
+                  }
+                }
+              }
+
+              &:before {
+                content: '3.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(4) {
+
+          ol {
+
+            li {
+
+              ol {
+
+                li {
+
+                  &:before {
+                    content: '4.1.' counter(ol-counter) '.';
+                    counter-increment: ol-counter;
+                  }
+                }
+              }
+
+              &:before {
+                content: '4.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(5) {
+
+          ol {
+
+            li {
+
+              &:before {
+                content: '5.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(6) {
+
+          ol {
+
+            li {
+
+              &:nth-of-type(1) {
+
+                ol {
+
+                  li {
+
+                    &:before {
+                      content: '6.1.' counter(ol-counter) '.';
+                      counter-increment: ol-counter;
+                    }
+                  }
+                }
+              }
+
+              &:nth-of-type(2) {
+
+                ol {
+
+                  li {
+
+                    &:before {
+                      content: '6.2.' counter(ol-counter) '.';
+                      counter-increment: ol-counter;
+                    }
+                  }
+                }
+              }
+
+              &:before {
+                content: '6.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(7) {
+
+          ol {
+
+            li {
+
+              &:nth-of-type(2) {
+
+                ol {
+
+                  li {
+
+                    &:before {
+                      content: '7.2.' counter(ol-counter) '.';
+                      counter-increment: ol-counter;
+                    }
+                  }
+                }
+              }
+
+              &:before {
+                content: '7.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(8) {
+
+          ol {
+
+            li {
+
+              &:before {
+                content: '8.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(9) {
+
+          ol {
+
+            li {
+
+              &:before {
+                content: '9.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(10) {
+
+          ol {
+
+            li {
+
+              &:before {
+                content: '10.' counter(ol-counter) '.';
+                counter-increment: ol-counter;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mfp-close {
+  color: $white !important;
+  font-size: 38px !important;
+}
