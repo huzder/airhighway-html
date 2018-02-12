@@ -3,6 +3,10 @@ footer {
   background: $blue;
   padding: 45px 0 10px;
 
+  @include respond-to(mobile) {
+    padding-top: 35px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;

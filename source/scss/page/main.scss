@@ -26,7 +26,7 @@
 
         @include respond-to(mobile) {
           left: 4%;
-          bottom: 20px;
+          bottom: 33px;
           font: 20px/30px $lato-b;
         }
 
@@ -63,6 +63,225 @@
         top: 0; left: 0;
         z-index: 2;
         background: rgba(0,0,0, .3);
+      }
+    }
+  }
+
+  .about {
+    background: $white;
+
+    @include respond-to(mobile) {
+
+      p {
+        font: 16px/26px $rsl-r;
+        padding: 34px 0 36px;
+      }
+    }
+
+    @include respond-to(laptop) {
+
+      p {
+        font: 20px/30px $rsl-r;
+        padding: 42px 70px 47px;
+      }
+    }
+
+    @include respond-to(desktop) {
+
+      p {
+        font: 24px/34px $rsl-r;
+        padding: 42px 110px 47px;
+      }
+    }
+  }
+
+  .product {
+    color: $white;
+    background: $black;
+    padding: 64px 0 0;
+
+    @include respond-to(mobile) {
+      padding-top: 53px;
+      padding-bottom: 40px;
+    }
+
+    @include respond-to(laptop) {
+      padding-bottom: 50px;
+    }
+
+    @include respond-to(desktop) {
+      padding-bottom: 50px;
+    }
+
+    h2 {
+      color: $white;
+      font: 40px/40px $lato-sb;
+      text-align: center;
+
+      @include respond-to(mobile) {
+        font: 30px/30px $lato-sb;
+        margin-bottom: 22px;
+
+        span {
+          border-top: 2px solid $aqua;
+          padding-top: 5px;
+        }
+      }
+
+      @include respond-to(mac) {
+        margin-bottom: 32px;
+      }
+
+      span {
+        border-top: 5px solid $aqua;
+        padding-top: 5px;
+      }
+    }
+
+    &-slider {
+      @include respond-to(mobile) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      @include respond-to(mac) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      &-item {
+        text-decoration: none;
+        color: $white;
+        display: block;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 0 0 rgba(0,162,255,0);
+
+        @include respond-to(mobile) {
+          width: 310px;
+          height: 210px;
+          margin: 0 10px 20px
+        }
+
+        @include respond-to(laptop) {
+          width: 300px;
+          height: 200px;
+          margin-bottom: 40px;
+        }
+
+        @include respond-to(desktop) {
+          width: 378px;
+          height: 260px;
+          margin-bottom: 34px;
+        }
+
+        @include respond-to(mac) {
+          &:hover {
+            box-shadow: 0 20px 50px 10px rgba(0,162,255,.2);
+          }
+        }
+
+        .info {
+          display: flex;
+          position: absolute;
+          bottom: 10px; right: 0;
+
+          p {
+            height: 33px;
+            font-size: 18px;
+            display: flex;
+            padding: 0 20px;
+            align-items: center;
+            position: relative;
+
+            @include respond-to(mobile) {
+              font-size: 16px;
+            }
+
+            i {
+              padding-left: 3px;
+
+              &:after {
+                content: $icon-rubl-light;
+                font: 12px $icon;
+              }
+            }
+          }
+
+          &-name {
+            color: $aqua;
+            background: $white;
+            padding-right: 14px;
+
+            &:after {
+              content: '';
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 33px 6px 0 0;
+              border-color: $white transparent transparent transparent;
+              position: absolute;
+              top: 0; right: -6px;
+              z-index: 1;
+            }
+          }
+
+          &-price {
+            color: $white;
+            background: $aqua;
+            padding-right: 12px !important;
+
+            &:before {
+              content: '';
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 6px 0 0 6px;
+              border-color: transparent transparent transparent #0071b2;
+              position: absolute;
+              top: -6px; right: -6px;
+
+            }
+
+            &:after {
+              content: '';
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 33px 6px 0 0;
+              border-color: $aqua transparent transparent transparent;
+              position: absolute;
+              top: 0; right: -6px;
+              z-index: 1;
+            }
+          }
+        }
+
+        &:last-child {
+
+          @include respond-to(mobile) {
+
+            .info {
+
+              p {
+                padding: 0 8px;
+              }
+            }
+          }
+
+          @include respond-to(laptop) {
+
+            .info {
+
+              p {
+                padding: 0 8px;
+              }
+            }
+          }
+        }
       }
     }
   }

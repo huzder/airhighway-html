@@ -1,0 +1,35 @@
+.sticker {
+  position: absolute;
+  display: flex;
+  top: 10px; left: 10px;
+  z-index: 3;
+
+  &-item {
+    width: 40px;
+    height: 40px;
+    color: $aqua;
+    border-radius: 100%;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: default;
+
+    &._sale {
+
+      &:before {
+        content: $icon-sale;
+        font: 34px $icon;
+      }
+    }
+
+    &._fire {
+
+      &:before {
+        content: $icon-fire;
+        font: 26px $icon;
+      }
+    }
+  }
+}

@@ -16,11 +16,13 @@
 @import 'layout/footer';
 @import 'layout/popup';
 @import 'layout/button';
+@import 'layout/sticker';
 @import 'layout/form';
 @import 'layout/hack';
 
 // Plugin
 @import 'plugin/slider';
+@import 'plugin/tooltip';
 @import '../../bower_components/slick-carousel/slick/slick.css';
 @import '../../bower_components/tooltipster/dist/css/tooltipster.bundle.min.css';
 @import '../../bower_components/magnific-popup/dist/magnific-popup.css';

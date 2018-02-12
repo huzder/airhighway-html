@@ -1,0 +1,52 @@
+.button {
+
+  &_flat {
+
+    &._blue {
+
+    }
+  }
+
+  &_border {
+    height: 50px;
+    color: #999;
+    font: 18px/54px $lato-sb;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 0 40px;
+    background: $tr;
+    border: 2px solid #999;
+    @include transform(skewX(-10deg));
+
+    @include respond-to(mobile) {
+      font: 16px/52px $lato-sb;
+    }
+
+    span {
+      display: block;
+      @include transform(skewX(10deg));
+
+      @include respond-to(mac) {
+        margin-top: -3px;
+      }
+    }
+
+    &._opc2 {
+      opacity: .2;
+    }
+
+    &._white {
+      color: $white;
+      border-color: $white;
+    }
+
+    @include respond-to(mac) {
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+
+// Black
+.tooltipster-sidetip.tooltipster-black .tooltipster-box {
+	background: #000;
+  font: 12px $lato-r;
+	border: 0 solid transparent;
+	border-radius: 3px;
+	box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+.tooltipster-sidetip.tooltipster-black .tooltipster-content {
+	color: $white;
+	padding: 2px 8px;
+}
+
+.tooltipster-sidetip.tooltipster-black .tooltipster-arrow-border {
+	border: 0px solid transparent;
+	left: 0;
+	top: 0;
+}
+
+.tooltipster-sidetip.tooltipster-black .tooltipster-arrow-background {
+	border: 5px solid transparent;
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow {
+	bottom: 0;
+	height: 10px;
+	margin-left: -9px;
+	width: 20px;
+}
+.tooltipster-sidetip.tooltipster-black.tooltipster-top .tooltipster-arrow-background {
+	border-top-color: #000;
+	left: 4px;
+	top: 1px;
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow {
+	height: 10px;
+	margin-left: -5px;
+	top: 0;
+	width: 20px;
+}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
+	border-bottom-color: #000;
+	left: 0;
+	top: 9px;
+}
+
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow {
+	height: 10px;
+	margin-top: -10px;
+	right: -5px;
+	top: 0;
+	width: 20px;
+}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
+	border-left-color: #f00;
+	left: -3px;
+	top: 0;
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
+	border-right-color: #000;
+	left: 3px;
+	top: 0;
+}
