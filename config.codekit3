@@ -1942,6 +1942,13 @@
 		"oAP": "\/site\/about.html",
 		"oF": 0
 		},
+	"\/source\/kit\/tpl\/main\/news.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/news.html",
+		"oF": 0
+		},
 	"\/source\/kit\/tpl\/main\/product.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2625,6 +2632,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/source\/static\/images\/main\/news_1.jpg": {
+		"ft": 16384,
+		"iS": 60968,
+		"oA": 0,
+		"oAP": "\/site\/static\/images\/main\/news_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/static\/images\/main\/news_2.jpg": {
+		"ft": 16384,
+		"iS": 66971,
+		"oA": 0,
+		"oAP": "\/site\/static\/images\/main\/news_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/static\/images\/main\/rw.jpg": {

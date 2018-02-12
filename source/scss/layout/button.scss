@@ -42,10 +42,20 @@
       border-color: $white;
     }
 
+    &._gray {
+      color: $gray;
+      border-color: $gray;
+    }
+
     @include respond-to(mac) {
 
       &:hover {
         opacity: 1;
+
+        &._h-blue {
+          color: $aqua;
+          border-color: $aqua;
+        }
       }
     }
   }
