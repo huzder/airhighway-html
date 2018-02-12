@@ -1,0 +1,41 @@
+.page-main {
+
+  .slider {
+
+    .slick {
+
+      &-dots {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 20px;
+
+        @include respond-to(mobile) {
+          bottom: 10px;
+        }
+
+        li {
+          width: 5px;
+          height: 5px;
+          display: block;
+          overflow: hidden;
+          background: $white;
+          margin: 0 5px;
+          border-radius: 10px;
+          opacity: .3;
+          cursor: pointer;
+          @include transition;
+
+          &.slick-active {
+            opacity: .6;
+          }
+
+          button {
+            font-size: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -45,10 +45,5 @@ a {
 
 // Container
 .container {
-	margin: 0 auto;
-	position: relative;
-
-  @include respond-to(mobile) {width: 92%;}
-	@include respond-to(laptop) {width: $mobile;}
-	@include respond-to(desktop) {width: $laptop;}
+  @include respond;
 }

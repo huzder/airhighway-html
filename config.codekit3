@@ -1935,6 +1935,13 @@
 		"oAP": "\/site\/header.html",
 		"oF": 1
 		},
+	"\/source\/kit\/tpl\/main\/slider.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/slider.html",
+		"oF": 0
+		},
 	"\/source\/scss\/layout\/base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2100,6 +2107,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/site\/static\/css\/main.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/scss\/plugin\/slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/static\/css\/slider.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2546,6 +2566,16 @@
 		"oA": 0,
 		"oAP": "\/site\/static\/fonts\/roboto-slab\/RobotoSlab-Regular.woff",
 		"oF": 0
+		},
+	"\/source\/static\/images\/main\/slider_1.jpg": {
+		"ft": 16384,
+		"iS": 1026713,
+		"oA": 0,
+		"oAP": "\/site\/static\/images\/main\/slider_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/source\/static\/jquery\/main.js": {
 		"ft": 64,
