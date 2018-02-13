@@ -1365,7 +1365,7 @@
 		"uCM": 0
 		},
 	"\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1378,7 +1378,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/magnific-popup\/src\/css\/main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1622,7 +1622,7 @@
 		"sU": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/slick-theme.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1682,7 +1682,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/slick.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1964,7 +1964,7 @@
 		"oF": 0
 		},
 	"\/source\/scss\/layout\/base.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1977,7 +1977,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/button.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1990,7 +1990,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/footer.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2003,7 +2003,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/form.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2016,7 +2016,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/hack.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2029,7 +2029,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/header.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2041,21 +2041,8 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/layout\/popup.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/site\/static\/css\/popup.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/source\/scss\/layout\/reset.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2068,7 +2055,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/sticker.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2081,7 +2068,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/mixin\/css3.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2094,7 +2081,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/mixin\/fonts.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2107,7 +2094,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/mixin\/gradient.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2120,7 +2107,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/mixin\/respond.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2133,7 +2120,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/page\/main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2145,8 +2132,21 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/source\/scss\/plugin\/popup.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/site\/static\/css\/popup.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/source\/scss\/plugin\/slider.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2159,7 +2159,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/plugin\/tooltip.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2172,7 +2172,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2185,7 +2185,7 @@
 		"uL": 1
 		},
 	"\/source\/scss\/variables\/color.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2614,6 +2614,13 @@
 		"oAP": "\/site\/static\/fonts\/roboto-slab\/RobotoSlab-Regular.woff",
 		"oF": 0
 		},
+	"\/source\/static\/images\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/static\/images\/favicon.ico",
+		"oF": 0
+		},
 	"\/source\/static\/images\/main\/camera.jpg": {
 		"ft": 16384,
 		"iS": 33320,
@@ -2728,6 +2735,32 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/source\/static\/jquery\/script.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/slick-carousel\/slick\/slick.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/tooltipster\/dist\/js\/tooltipster.bundle.min.js",
+			"position": 3,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 539464558,
@@ -4649,7 +4682,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
