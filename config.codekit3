@@ -7,7 +7,7 @@
 		"uuidString": "492884B6-DBDC-4A21-9B98-4F06AEA464DD"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -23,6 +23,193 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/bower_components\/devicejs\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/devicejs\/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.editorconfig",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/.eslintrc.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.eslintrc.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/devicejs\/.github\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.github\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/devicejs\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/.npmrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.npmrc",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/.nvmrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.nvmrc",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/device.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/devicejs\/device.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/devicejs\/docs\/android.png": {
+		"ft": 32768,
+		"iS": 9495,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/docs\/android.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/devicejs\/docs\/blackberry.png": {
+		"ft": 32768,
+		"iS": 13679,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/docs\/blackberry.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/devicejs\/docs\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/docs\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/docs\/iphone.png": {
+		"ft": 32768,
+		"iS": 13578,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/docs\/iphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/devicejs\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/Makefile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/Makefile",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/nwb.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/nwb.config.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/devicejs\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/devicejs\/README.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/README.markdown",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/src\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/src\/index.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/devicejs\/tests\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/tests\/.eslintrc",
+		"oF": 0
+		},
+	"\/bower_components\/devicejs\/tests\/index-test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/devicejs\/tests\/index-test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
@@ -1470,6 +1657,75 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/bower_components\/ScrollToFixed\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ScrollToFixed\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ScrollToFixed\/jquery-scrolltofixed-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/jquery-scrolltofixed-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/ScrollToFixed\/jquery-scrolltofixed.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/jquery-scrolltofixed.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/ScrollToFixed\/license.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/license.txt",
+		"oF": 0
+		},
+	"\/bower_components\/ScrollToFixed\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ScrollToFixed\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/site\/bower_components\/ScrollToFixed\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/bower_components\/slick-carousel\/.bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2624,6 +2880,7 @@
 	"\/source\/static\/images\/main\/camera.jpg": {
 		"ft": 16384,
 		"iS": 33320,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/camera.jpg",
 		"oF": 0,
@@ -2634,6 +2891,7 @@
 	"\/source\/static\/images\/main\/ff.jpg": {
 		"ft": 16384,
 		"iS": 27774,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/ff.jpg",
 		"oF": 0,
@@ -2644,26 +2902,29 @@
 	"\/source\/static\/images\/main\/news_1.jpg": {
 		"ft": 16384,
 		"iS": 60968,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/news_1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/static\/images\/main\/news_2.jpg": {
 		"ft": 16384,
 		"iS": 66971,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/news_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/static\/images\/main\/rw.jpg": {
 		"ft": 16384,
 		"iS": 25983,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/rw.jpg",
 		"oF": 0,
@@ -2674,6 +2935,7 @@
 	"\/source\/static\/images\/main\/slider_1.jpg": {
 		"ft": 16384,
 		"iS": 1026713,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/slider_1.jpg",
 		"oF": 0,
@@ -2684,6 +2946,7 @@
 	"\/source\/static\/images\/main\/staff.jpg": {
 		"ft": 16384,
 		"iS": 16081,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/staff.jpg",
 		"oF": 0,
@@ -2694,6 +2957,7 @@
 	"\/source\/static\/images\/main\/tandem.jpg": {
 		"ft": 16384,
 		"iS": 28909,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/tandem.jpg",
 		"oF": 0,
@@ -2704,6 +2968,7 @@
 	"\/source\/static\/images\/main\/tunel.jpg": {
 		"ft": 16384,
 		"iS": 31225,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/static\/images\/main\/tunel.jpg",
 		"oF": 0,
@@ -2744,20 +3009,32 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/devicejs\/device.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/slick-carousel\/slick\/slick.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/tooltipster\/dist\/js\/tooltipster.bundle.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/slick-carousel\/slick\/slick.min.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/tooltipster\/dist\/js\/tooltipster.bundle.min.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/ScrollToFixed\/jquery-scrolltofixed.js",
+			"position": 5,
 			"type": 0
 			}
 		]
@@ -2767,6 +3044,7 @@
 	"displayValue": "airhighway-html",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-grumpy",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 539475421
 	},
 "projectSettings": {
@@ -2775,6 +3053,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -4569,6 +4848,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
