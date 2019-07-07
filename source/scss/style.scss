@@ -8,6 +8,7 @@
 @import 'mixin/css3';
 @import 'mixin/gradient';
 @import 'mixin/respond';
+@import 'mixin/suit';
 
 // Layout
 @import 'layout/reset';
@@ -23,6 +24,9 @@
 @import 'plugin/slider';
 @import 'plugin/tooltip';
 @import 'plugin/popup';
+@import 'plugin/animate';
 
 // Pages
 @import 'page/main';
+@import 'page/produkt';
+@import 'page/news';

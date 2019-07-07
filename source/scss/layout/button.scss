@@ -1,9 +1,43 @@
 .button {
 
   &_flat {
+    height: 50px;
+    color: #999;
+    font: 18px/54px $lato-sb;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 0 40px;
+    background: $tr;
+    border: 2px solid #999;
+    @include transform(skewX(-10deg));
+
+    @include respond-to(mobile) {
+      font: 16px/52px $lato-sb;
+    }
 
     &._blue {
+      color: #fff;
+      background: $blue;
+      border: 2px solid $blue;
 
+      @include respond-to(mac) {
+
+        &:hover {
+          background: $aqua;
+          border: 2px solid $aqua;
+        }
+      }
+    }
+
+    span {
+      display: block;
+      @include transform(skewX(10deg));
+
+      @include respond-to(mac) {
+        margin-top: -3px;
+      }
     }
   }
 
@@ -55,6 +89,11 @@
         &._h-blue {
           color: $aqua;
           border-color: $aqua;
+        }
+
+        &._h-bluee {
+          color: $blue;
+          border-color: $blue;
         }
       }
     }

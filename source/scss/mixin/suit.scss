@@ -1,0 +1,87 @@
+@mixin suit-color($bgcolor, $brcolor) {
+  background-color: $bgcolor;
+  border: 1px solid $brcolor;
+}
+
+.cs {
+
+  &-white {
+    @include suit-color($cs-white, $gray);
+  }
+
+  &-black {
+    @include suit-color($cs-black, $cs-black);
+  }
+
+  &-gray {
+    @include suit-color($cs-gray, $cs-gray);
+
+    &_black {
+      @include suit-color($cs-gray_black, $cs-gray_black);
+    }
+  }
+
+  &-blue {
+    @include suit-color($cs-blue, $cs-blue);
+
+    &_black {
+      @include suit-color($cs-blue_black, $cs-blue_black);
+    }
+  }
+
+  &-aqua {
+    @include suit-color($cs-aqua, $cs-aqua);
+
+    &_black {
+      @include suit-color($cs-aqua_black, $cs-aqua_black);
+    }
+  }
+
+  &-purpul {
+    @include suit-color($cs-purpul, $cs-purpul);
+
+    &_white {
+      @include suit-color($cs-purpul_white, $cs-purpul_white);
+    }
+
+    &_black {
+      @include suit-color($cs-purpul_black, $cs-purpul_black);
+    }
+  }
+
+  &-green {
+    @include suit-color($cs-green, $cs-green);
+
+    &_white {
+      @include suit-color($cs-green_white, $cs-green_white);
+    }
+
+    &_black {
+      @include suit-color($cs-green_black, $cs-green_black);
+    }
+  }
+
+  &-yellow {
+    @include suit-color($cs-yellow, $cs-yellow);
+
+    &_black {
+      @include suit-color($cs-yellow_black, $cs-yellow_black);
+    }
+  }
+
+  &-orange {
+    @include suit-color($cs-orange, $cs-orange);
+  }
+
+  &-red {
+    @include suit-color($cs-red, $cs-red);
+
+    &_white {
+      @include suit-color($cs-red_white, $cs-red_white);
+    }
+
+    &_black {
+      @include suit-color($cs-red_black, $cs-red_black);
+    }
+  }
+}

@@ -38,6 +38,8 @@
     "tooltipster": "^4.2.6",
     "magnific-popup": "^1.1.0",
     "ScrollToFixed": "^1.0.8",
-    "devicejs": "^0.7.8"
+    "devicejs": "^0.7.8",
+    "Tabslet": "^1.7.3",
+    "animate.css": "^3.6.2"
   }
 }
