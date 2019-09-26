@@ -50,6 +50,17 @@ $(document).ready(function() {
     $('.slider').slick('slickNext');
   })
 
+  $('.photo-popup').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+  });
+  
+  $('#phone').mask('+7 (999) 999-99-99');
+
   setTimeout(function() {
     $('.bay-wrapper').css('opacity','1');
   }, 500);

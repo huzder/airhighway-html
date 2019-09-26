@@ -1168,14 +1168,30 @@
             grid-template-areas: ". .";
             margin-top: -50px;
 
+            @include respond-to(mobile) {
+              grid-template-columns: 1fr;
+              grid-template-areas: ".";
+              margin-top: 0;
+            }
+
             &-man {
               margin-top: 30px;
+
+              @include respond-to(mobile) {
+                margin-bottom: 40px;
+              }
 
               &_img {
                 width: 100%;
 
                 img {
                   max-width: 100%;
+
+                  @include respond-to(mobile) {
+                    max-width: 40%;
+                    display: block;
+                    margin: 0 auto;
+                  }
                 }
               }
 
@@ -1187,16 +1203,21 @@
                 box-shadow: 0 1px 2px 0px rgba(0,0,0,0.2);
                 position: relative;
 
-                p {
+                @include respond-to(mobile) {
+                  width: 70%;
+                  margin: 20px auto 0;
+                }
+
+                .title {
                   color: $aqua;
                   font: 16px/16px $lato-sb;
                   text-align: center;
-                  margin-bottom: 5px;
+                  margin-bottom: 10px;
                 }
 
-                span {
+                .text {
                   color: #666;
-                  font: 12px/12px $lato-r;
+                  font: 12px/16px $lato-r;
                 }
 
                 &:before {
@@ -1224,37 +1245,156 @@
                 grid-gap: 0 20px;
 
                 li {
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  padding: 10px;
-                  @include rgba-bg(background, $aqua, 0);
-                  @include transition;
+                  position: relative;
+                  
+                  div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                    padding: 10px;
+                    z-index: 1;
+                    @include rgba-bg(background, $aqua, 0);
+                    @include transition;
 
-                  @include respond-to(mac) {
-                    
-                    &:hover {
-                      @include rgba-bg(background, $aqua, .1);
+                    @include respond-to(mac) {
+                      
+                      &:hover {
+                        @include rgba-bg(background, $aqua, .1);
+                      }
+                    }
+
+                    &.active {
+                      @include rgba-bg(background, $aqua, .2);
+                    }
+
+                    p {
+                      font: 16px/20px $lato-r;
+                    }
+
+                    input {
+                      width: 24px;
+                      height: 26px;
+                      color: #999;
+                      font: 14px/14px $lato-r;
+                      padding: 0 5px;
+                      border: 1px solid #ccc;
+                      margin-left: 10px;
                     }
                   }
 
-                  &.active {
-                    @include rgba-bg(background, $aqua, .2);
+                  &:before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    position: absolute;
+                    top: 0; left: 0;
+                    z-index: -1;
+                    background: rgba(255,255,255, .8);
                   }
+                }
+              }
+            }
+          }
 
-                  p {
-                    font: 16px/20px $lato-r;
-                  }
+          &-option {
+            margin-top: -48px;
 
-                  input {
-                    width: 24px;
-                    height: 26px;
-                    color: #999;
-                    font: 14px/14px $lato-r;
-                    padding: 0 5px;
-                    border: 1px solid #ccc;
-                    margin-left: 10px;
+            @include respond-to(mobile) {
+              margin-top: 63px;
+            }
+
+            &_item {
+              margin-bottom: -20px;
+              
+              @include respond-to(mobile) {
+                margin-bottom: 0;
+              }
+              
+              .control {
+                display: grid !important;
+                grid-template-columns: 20px 1fr 30px 90px;
+                grid-template-areas: ". . . .";
+                grid-gap: 15px;
+                padding-left: 0;
+
+                &-checkbox {
+                  width: 20px;
+                }
+
+                &-text {
+                  font: 18px/24px $lato-r;
+                }
+
+                &-photo {
+
+                  .photo {
+                    display: block;
+                    text-align: center;
+                    opacity: .4;
+                    @include transition;
+                    border: 0;
+                    text-decoration: none;
+
+                    &:before {
+                      color: $aqua;
+                      content: $icon-photo;
+                      font: 30px/26px $icon;
+                    }
+
+                    &:hover {
+                      opacity: 1;
+                    }
                   }
+                }
+
+                &-price {
+                  color: #999;
+                  font: 20px/24px $lato-r;
+
+                  .ruble {
+
+                    &:before {
+                      content: $icon-rubl-light;
+                      font: 14px/22px $icon;
+                      display: inline-block;
+                      vertical-align: top;
+                      margin: 2px 0 0 2px;
+                    }
+                  }
+                }
+
+                &_indicator {
+                  top: 3px;
+                  position: relative;
+                }
+              }
+            }
+          }
+
+          &-itog {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 40px;
+            margin-top: -36px;
+
+            &-svg {
+
+              svg {
+                max-width: 100%;
+              }
+            }
+          }
+
+          #Man {
+
+            .bay-wrapper-item_content-size-zamer {
+
+              .woman {
+                
+                &:before {
+                  z-index: 2;
                 }
               }
             }
@@ -1369,6 +1509,106 @@
                 color: $red;
                 position: absolute;
                 top: 3px; left: 0;
+              }
+            }
+
+            ul {
+
+              li {
+                margin: 0 0 20px 15px;
+
+                a {
+                  color: $gray;
+                  text-decoration: none;
+                  font: 22px/22px $lato-r;
+                  position: relative;
+
+                  &:after {
+                    content: '';
+                    width: 0;
+                    height: 3px;
+                    display: block;
+                    margin-top: 7px;
+                    background: $aqua;
+                    opacity: 0;
+                    @include transition;
+
+                    @include respond-to(mobile) {
+                      margin: 7px auto 0;
+                    }
+                  }
+
+                  &:hover {
+                    color: $gray-dark;
+                  }
+
+                  &.active {
+                    color: $black;
+
+                    &:after {
+                      width: 20px;
+                      opacity: 1;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          &-element {
+            margin-top: 32px;
+            flex: 1 1 auto;
+
+            &-item {
+
+              .radio-control-border {
+                color: $black;
+                display: flex;
+                margin-bottom: 0;
+                font: 16px/19px $lato-r;
+
+                @include respond-to(mobile) {
+                  justify-content: center;
+                }
+
+                label {
+                  color: #999;
+                  font: 14px/14px $lato-r;
+
+                  &:first-child {
+                    margin: 0 10px 0px;
+                  }
+                }
+
+                .control {
+                  padding-left: 17px;
+
+                  &_indicator {
+                    width: 8px;
+                    height: 8px;
+                    top: 5px;
+  
+                    &:after {
+                      width: 4px;
+                      height: 4px;
+                      top: 2px; left: 2px;
+                    }
+                  }
+                }
+
+                &:first-child {
+                  margin-top: 15px;
+                }
+
+                &:last-child {
+
+                  label {
+
+                    &:first-child {
+                      margin-left: 23px;
+                    }
+                  }
+                }
               }
             }
           }
