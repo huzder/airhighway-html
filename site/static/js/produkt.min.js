@@ -13,10 +13,10 @@ $(document).ready(function() {
   $('.options').tabslet({
     animation: true
   });
-  $('html.desktop .additional').tabslet({
+  $('.additional').tabslet({
     animation: true
   });
-  $('html.desktop .basic').tabslet({
+  $('.basic').tabslet({
     animation: true
   });
 
