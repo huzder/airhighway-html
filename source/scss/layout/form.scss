@@ -8,7 +8,12 @@ input, textarea {
   align-items: center;
   padding-left: 15px;
   margin-bottom: 20px;
+  position: relative;
   border: 2px solid #ccc;
+
+  @include respond-to(mobile) {
+    width: calc(100% - 20px);
+  }
 
   input {
     width: calc(100% - 30px);
@@ -32,17 +37,37 @@ input, textarea {
     }
   }
 
+  label {
+    color: $black;
+    font: 14px/14px $lato-r;
+    text-transform: uppercase;
+  }
+
   &._up {
     align-items: flex-start;
     flex-direction: column;
     padding-top: 15px;
   }
 
-  label {
-    color: $black;
-    font: 14px/14px $lato-r;
-    text-transform: uppercase;
+  &.error {
+    border-color: $red;
+
+    label {
+      color: $red;
+    }
+
+    .error-mess {
+      display: block !important;
+    }
   }
+}
+
+.error-mess {
+  color: $red;
+  font: 12px/12px $lato-r;
+  position: absolute;
+  top: -15px; right: 0;
+  display: none;
 }
 
 .radio-control-default {

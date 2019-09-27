@@ -61,6 +61,16 @@ $(document).ready(function() {
   
   $('#phone').mask('+7 (999) 999-99-99');
 
+  $('body').on('click', '#jsCapcha', function(){
+    $(this).addClass('active');
+    $('#btnSubmit').removeClass('_disabled').prop('disabled', false);
+  });
+
+  $('body').on('click', '#jsCapcha.active', function(){
+    $(this).removeClass('active');
+    $('#btnSubmit').addClass('_disabled').prop('disabled', true);
+  });
+
   setTimeout(function() {
     $('.bay-wrapper').css('opacity','1');
   }, 500);

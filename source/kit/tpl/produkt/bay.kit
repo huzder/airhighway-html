@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="bay-wrapper">
-    <form actiov="#" class="container slider">
+    <form actiov="javascript:void(0);" class="container slider">
       <div class="bay-wrapper-item">
         <div class="bay-wrapper-item_content">
           <div class="bay-wrapper-item_content-title">Раскраска</div>
@@ -425,50 +425,75 @@
         </div>
 			</div>
 			<div class="bay-wrapper-item">
-					<div class="bay-wrapper-item_content">
-						<div class="bay-wrapper-item_content-title">Заказчик</div>
-						<div class="bay-wrapper-item_content-itog">
-							<div class="bay-wrapper-item_content-itog-svg">
-								<!-- @import _svg.kit -->
+				<div class="bay-wrapper-item_content">
+					<div class="bay-wrapper-item_content-title">Заказчик</div>
+					<div class="bay-wrapper-item_content-itog">
+						<div class="bay-wrapper-item_content-itog-svg">
+							<!-- @import _svg.kit -->
+						</div>
+						<div class="bay-wrapper-item_content-itog-form">
+							<div class="input">
+								<label>Имя:</label>
+								<input type="text" value="">
+								<div class="error-mess">Введите ваше имя</div>
 							</div>
-							<div class="bay-wrapper-item_content-itog-form">
-								<div class="input">
-									<label>Имя:</label>
-									<input type="text" value="">
-								</div>
-								<div class="input">
-									<label>Телефон:</label>
-									<input id="phone" type="text" value="">
-								</div>
-								<div class="input">
-									<label>Почта:</label>
-									<input type="text" value="">
-								</div>
-								<div class="input _up">
-									<label>Комментарии</label>
-									<textarea></textarea>
-								</div>
+							<div class="input">
+								<label>Телефон:</label>
+								<input id="phone" type="text" value="">
+								<div class="error-mess">Введите ваш телефон</div>
 							</div>
-							<div class="bay-wrapper-item_content-itog-info">
-								<span>я даю согласие на обработку моих персональных данных</span>
+							<div class="input error">
+								<label>Почта:</label>
+								<input type="text" value="">
+								<div class="error-mess">Введите вашу почту</div>
 							</div>
-							<div class="bay-wrapper-item_content-itog-pay">
-								pay
+							<div class="input _up">
+								<label>Комментарии</label>
+								<textarea></textarea>
 							</div>
 						</div>
-					</div>
-					<div class="bay-wrapper-item_sidebar">
-						<div class="bay-wrapper-item_sidebar-step">Шаг: 4/4</div>
-						<div class="bay-wrapper-item_sidebar-info">
-							<p>Актуальный срок пошива комбинезона — 3 недели.</p>
-							<p>После оформления заказа<br>необходимо связатсья с нами<br>по одному изтелефонов:<br>+7 (916) 514-10-00<br>+7 (926) 246-77-71<br>для уточнения сроков изготовления и способа оплаты.</p>
+						<div class="bay-wrapper-item_content-itog-info">
+							<span id="jsCapcha">Я даю согласие на обработку своих персональных данных</span>
 						</div>
-						<div class="bay-wrapper-item_sidebar-button">
-							<a href="javascript:void(0);" class="button_border _h-bluee backButton"><span>Назад</span></a>
-							<a href="javascript:void(0);" class="button_flat _blue nextButton"><span>Далее</span></a>
+						<div class="bay-wrapper-item_content-itog-pay">
+							<div class="radio-control-border">
+								<p>Оплата</p>
+								<label class="control">
+									Наличные        
+									<input type="radio" name="radio-3" checked="checked">
+									<div class="control_indicator"></div>
+								</label>
+								<label class="control">
+									Карта
+									<input type="radio" name="radio-3">
+									<div class="control_indicator"></div>
+								</label>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div class="bay-wrapper-item_sidebar">
+					<div class="bay-wrapper-item_sidebar-step">Шаг: 4/4</div>
+					<div class="bay-wrapper-item_sidebar-info">
+						<p>Актуальный срок пошива комбинезона — 3 недели.</p>
+						<p>После оформления заказа<br>необходимо связатсья с нами<br>по одному изтелефонов:<br>+7 (916) 514-10-00<br>+7 (926) 246-77-71<br>для уточнения сроков изготовления и способа оплаты.</p>
+					</div>
+					<div class="bay-wrapper-item_sidebar-button">
+						<a href="javascript:void(0);" class="button_border _h-bluee backButton"><span>Назад</span></a>
+						<button id="btnSubmit" type="submit" class="button_flat _blue _disabled" disabled><span>Отправить</span></button>
+						<!-- После нажатия на кнопку "Отправить", ей добавляются классы "_disabled" и "_submit", а так же атрибут disabled -->
+					</div>
+				</div>
+			</div>
+			<!-- Сообщение об успешной отправке заказа -->
+			<div class="bay-wrapper-item">
+				<div class="bay-wrapper-item_content">
+					<div class="bay-wrapper-item_content-send">
+						<div class="bay-wrapper-item_content-send-title">Спасибо Эдуард, что выбрали AirHigway.</div>
+						<div class="bay-wrapper-item_content-send-mess">Ваш заказ отправлен, мы перезвоним вам в ближайшее время для уточнения деталей заказа.</div>
+					</div>
+				</div>
+			</div>
     </form>
   </div>
 </div>

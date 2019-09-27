@@ -3840,6 +3840,19 @@
 		"oAP": "/site/page.html",
 		"oF": 0
 		},
+	"/source/scss/animation/rotation.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/site/static/css/rotation.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/source/scss/layout/base.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -4618,12 +4631,104 @@
 		"oAP": "/site/static/fonts/roboto-slab/RobotoSlab-Regular.woff",
 		"oF": 0
 		},
-	"/source/static/images/favicon.ico": {
+	"/source/static/images/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2114,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 3740,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1970,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/site/static/images/favicon.ico",
+		"oAP": "/site/static/images/favicon/browserconfig.xml",
+		"oF": 0
+		},
+	"/source/static/images/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 793,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1085,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/source/static/images/favicon/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 2605,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/favicon/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/site/static/images/favicon/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/source/static/images/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/site/static/images/favicon/site.webmanifest",
 		"oF": 0
 		},
 	"/source/static/images/main/camera.jpg": {
@@ -4874,7 +4979,7 @@
 	"creationDate": 539464558,
 	"displayValue": "airhighway-html",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-grumpy",
+	"iconImageName": "/source/static/images/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 539475421
 	},
