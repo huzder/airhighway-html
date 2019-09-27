@@ -251,14 +251,14 @@
 
     &-content {
 
-      h2 {
-        color: #666;
-        font: 32px/42px $lato-r;
+      h2, h3, h4 {
+        color: $blue;
+        font: 36px/46px $lato-r;
         text-align: left;
         margin-bottom: 10px;
 
         @include respond-to(mobile) {
-          font: 24px/32px $rsl-r;
+          font: 28px/38px $rsl-r;
         }
 
         @include respond-to(mac) {
@@ -283,10 +283,125 @@
         }
       }
 
+      blockquote {
+        font-family: $lato-i;
+        margin: 0 80px;
+        position: relative;
+        margin-bottom: 30px;
+
+        @include respond-to(mobile) {
+          margin: 0 30px 30px;
+        }
+
+        p {
+          font-family: $lato-i;
+          margin-bottom: 30px;
+        }
+
+        &:before {
+          content: '“';
+          color: $blue;
+          font: 100px/100px $lato-i;
+          display: block;
+          position: absolute;
+          top: -10px; left: 0px;
+
+          @include respond-to(mobile) {
+            font: 50px/50px $lato-i;
+            top: 0; left: -30px;
+          }
+        }
+      }
+
+      ul, ol {
+
+        li {
+          font: 20px/30px $rsl-r;
+          margin: 0 100px 30px;
+          position: relative;
+
+          @include respond-to(mobile) {
+            margin: 0 20px 30px
+          }
+
+          @include respond-to(mobile) {
+            font: 16px/24px $rsl-r;
+          }
+        }
+      }
+
+      ul {
+
+        li {
+
+          &:before {
+            content: '//';
+            color: $blue;
+            font: 16px/16px $lato-b;
+            width: 4px;
+            height: 4px;
+            display: block;
+            position: absolute;
+            top: 7px; left: -20px;
+
+            @include respond-to(mobile) {
+              font: 16px/16px $lato-b;
+              top: 5px;
+            }
+          }
+        }
+      }
+
+      ol {
+        counter-reset: ol-counter;
+
+        li {
+
+          &:before {
+            content: counter(ol-counter)'.';
+            counter-increment: ol-counter;
+            color: $blue;
+            text-align: right;
+            font: 18px/18px $lato-b;
+            width: 4px;
+            height: 4px;
+            display: block;
+            position: absolute;
+            top: 7px; left: -20px;
+
+            @include respond-to(mobile) {
+              font: 14px/14px $lato-b;
+              top: 6px;
+            }
+          }
+        }
+      }
+
       img {
         max-width: 100%;
         display: block;
         margin-bottom: 25px;
+      }
+
+      .wp {
+
+        &-block {
+
+          &-image {
+            margin-bottom: 30px;
+
+            img {
+              max-width: 100%;
+              display: block;
+              margin: 0 auto 15px;
+            }
+
+            figcaption {
+              color: #999;
+              font: 16px/26px $rsl-r;
+            }
+          }
+        }
       }
     }
   }
