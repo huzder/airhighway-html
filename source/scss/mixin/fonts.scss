@@ -74,5 +74,6 @@ $icon-att: 				'\e913';
 $icon-like: 			'\e914';
 $icon-notify: 		'\e921';
 $icon-setting: 		'\e929';
+$icon-check:      '\e906';
 
 @include font-face($icon, '/static/fonts/icon/', 'icon', 'icon');
