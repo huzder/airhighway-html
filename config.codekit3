@@ -7,7 +7,7 @@
 		"uuidString": "492884B6-DBDC-4A21-9B98-4F06AEA464DD"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31491",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -1125,6 +1125,171 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/source/static/images/size/00.png": {
+		"ft": 32768,
+		"iS": 24115,
+		"oA": 0,
+		"oAP": "/site/static/images/size/00.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/01.png": {
+		"ft": 32768,
+		"iS": 29150,
+		"oA": 0,
+		"oAP": "/site/static/images/size/01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/02.png": {
+		"ft": 32768,
+		"iS": 29683,
+		"oA": 0,
+		"oAP": "/site/static/images/size/02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/03.png": {
+		"ft": 32768,
+		"iS": 29822,
+		"oA": 0,
+		"oAP": "/site/static/images/size/03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/04.png": {
+		"ft": 32768,
+		"iS": 30192,
+		"oA": 0,
+		"oAP": "/site/static/images/size/04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/05.png": {
+		"ft": 32768,
+		"iS": 28554,
+		"oA": 0,
+		"oAP": "/site/static/images/size/05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/06.png": {
+		"ft": 32768,
+		"iS": 28553,
+		"oA": 0,
+		"oAP": "/site/static/images/size/06.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/07.png": {
+		"ft": 32768,
+		"iS": 31788,
+		"oA": 0,
+		"oAP": "/site/static/images/size/07.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/08.png": {
+		"ft": 32768,
+		"iS": 28485,
+		"oA": 0,
+		"oAP": "/site/static/images/size/08.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/09.png": {
+		"ft": 32768,
+		"iS": 30228,
+		"oA": 0,
+		"oAP": "/site/static/images/size/09.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/10.png": {
+		"ft": 32768,
+		"iS": 28574,
+		"oA": 0,
+		"oAP": "/site/static/images/size/10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/11.png": {
+		"ft": 32768,
+		"iS": 29215,
+		"oA": 0,
+		"oAP": "/site/static/images/size/11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/static/images/size/14.jpg": {
+		"ft": 16384,
+		"iS": 20801,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/static/images/size/14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/static/images/size/15.jpg": {
+		"ft": 16384,
+		"iS": 55770,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/static/images/size/15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/static/images/size/16.png": {
+		"ft": 32768,
+		"iS": 39735,
+		"oA": 0,
+		"oAP": "/site/static/images/size/16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/source/static/js/ajax.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1165,6 +1330,17 @@
 		"mi": 0,
 		"oA": 2,
 		"oAP": "/site/static/js/jquery.min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"/source/static/js/jquery.tabslet.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "/site/static/js/jquery.tabslet.min.js",
 		"oF": 3,
 		"sC": 0,
 		"tS": 0
@@ -1265,10 +1441,11 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-grumpy",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 585174665.34000099
+	"lastBuiltDate": 590842043.88310003
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -1280,6 +1457,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -1419,6 +1597,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -1450,6 +1631,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -1544,11 +1728,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -2553,6 +2736,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -3306,6 +3493,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules, .ds_store",

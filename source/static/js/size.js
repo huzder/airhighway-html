@@ -33,8 +33,6 @@ $(document).ready(function() {
 
   $('body').on('click', '.bay-wrapper-item_content-size-zamer li', function(){
     var elementId = this.id ;
-    $('.bay-wrapper-item_content-size-zamer li').removeClass('active');
-    $(this).addClass('active');
     $('#image').attr('src', images[elementId]);
     $('#title').text(titles[elementId]);
   });

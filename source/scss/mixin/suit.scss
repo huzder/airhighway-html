@@ -1,6 +1,8 @@
 @mixin suit-color($bgcolor, $brcolor) {
   background-color: $bgcolor;
-  border: 1px solid $brcolor;
+  border: 1px solid darken($bgcolor, 30%);
+  fill: $bgcolor;
+  stroke: darken($bgcolor, 30%);
 }
 
 .cs {

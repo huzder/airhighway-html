@@ -1029,7 +1029,6 @@
   }
 
   .bay {
-
     &-title {
       height: 85px;
       display: flex;
@@ -1088,11 +1087,12 @@
         }
       }
     }
-
+    &-loading > div {
+      opacity: 0;
+    }
     &-wrapper {
       background: #fff;
       padding: 35px 0 55px;
-      opacity: 0;
       @include transition;
 
       &-item {
@@ -1121,13 +1121,33 @@
           @include respond-to(mobile) {
             padding-top: 40px;
           }
-
+          canvas,
+          img,
+          a[download] {
+            position: absolute;
+            left: -10000px;
+            top: -10000px;
+          }
           svg {
             margin: 0 auto;
             display: block;
 
             @include respond-to(mobile) {
               width: 295px;
+            }
+            & a path {
+              fill: inherit;
+            }
+            & [data-target="seams"] {
+              opacity: .5;
+            }
+            &:focus-within a {
+              opacity: .7;
+            }
+            & a:not([data-target="seams"]):focus {
+              opacity: 1;
+              stroke: #888;
+              stroke-width: 1;
             }
           }
 
@@ -1227,7 +1247,6 @@
                   display: flex;
                   justify-content: space-between;
                   align-items: center;
-                  padding: 10px;
                   @include rgba-bg(background, $aqua, 0);
                   @include transition;
 
@@ -1238,12 +1257,15 @@
                     }
                   }
 
-                  &.active {
-                    @include rgba-bg(background, $aqua, .2);
-                  }
-
-                  p {
+                  label {
                     font: 16px/20px $lato-r;
+                    padding: 10px;
+                    flex: 1 1 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    position: relative;
+                    z-index: 1;
                   }
 
                   input {
@@ -1254,6 +1276,25 @@
                     padding: 0 5px;
                     border: 1px solid #ccc;
                     margin-left: 10px;
+                  }
+                  input[type=number]::-webkit-inner-spin-button, 
+                  input[type=number]::-webkit-outer-spin-button { 
+                    -webkit-appearance: none; 
+                    margin: 0; 
+                  }
+                  input + span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: -1;
+                    opacity: 0;
+                    @include transition;
+                    @include rgba-bg(background, $aqua, .2);
+                  }
+                  input:focus + span {
+                    opacity: 1;
                   }
                 }
               }
@@ -1402,7 +1443,7 @@
       background: #f3f3f3;
       padding: 10px;
       border-radius: 10px;
-      position: absolute;
+      position: fixed;
       top: 0; left: 0;
       z-index: -1;
       opacity: 0;
@@ -1431,15 +1472,20 @@
         box-shadow: 0 0 0 3px rgba(0,0,0,0);
         @include transition;
         
-
-        &.active {
-          box-shadow: 0 0 0 3px rgba(0,0,0,.2);
-        }
-
         &:hover {
           box-shadow: 0 0 0 3px rgba(0,0,0,.2);
         }
+        &-active {
+          box-shadow: 0 0 0 3px rgba(0,0,0,.3);
+
+          &:hover {
+            box-shadow: 0 0 0 3px rgba(0,0,0,.4);
+          }
+        }
       } 
+      &-item:not(.cs-white) {
+        border-color: transparent;
+      }
 
       &:before {
         content: '';
